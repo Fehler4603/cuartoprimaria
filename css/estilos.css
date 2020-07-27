@@ -74,7 +74,7 @@ h6{
 h1{
     font-size: 32px;
     line-height: 1.5;
-    letter-spacing: -.2px;
+    letter-spacing: -0.1px;
     color: white;
     margin: 0;
     /* text-transform: uppercase; <-- para mayusculas el uppercase*/
@@ -83,6 +83,8 @@ h1{
 
 h1 strong{
     color: #026fff;
+    /* -webkit-text-fill-color: red; */
+    -webkit-text-stroke: 0.2px black;
 }
 
 h2 {
@@ -95,7 +97,7 @@ h2 {
   }
 
 .hero{
-    height: 300px;
+    height: 320px;
     /* background-image: url(https://imgur.com/m1HfeeI.jpg);*/
     background-color: rgb(2, 2, 34);
     /* background-repeat: no-repeat;
@@ -159,6 +161,20 @@ h2 {
 
 .project-details{
     width: 50%;
+}
+
+.bienvenidos{
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background:  rgb(23, 23, 65);
+    display: flex;     
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-imageContainer{
@@ -590,6 +606,12 @@ figure{
 }
 
 @media screen and (max-width: 480px){
+    .hero {
+        height: 240px;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
     .strongProyDes{
         font-size: 0.5em;
     }
