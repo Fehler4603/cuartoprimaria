@@ -81,6 +81,10 @@ h1{
     /* text-decoration: overline; <-- para subrayar*/
 }
 
+.project-title strong{
+    color: greenyellow;
+}
+
 h1 strong{
     color: #026fff;
     /* -webkit-text-fill-color: red; */
