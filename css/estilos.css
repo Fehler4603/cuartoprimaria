@@ -450,6 +450,23 @@ figure{
 .mini{
     color: red;
 }
+
+.bienvenidos2{
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background:  rgb(241, 238, 238);
+    display: block;     
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titleGuia{
+    color: red;
+}
 /*desktop first que empieces desde el MQ mas grande*/
 @media screen and (max-width: 1023px){
     .event-list-title {
